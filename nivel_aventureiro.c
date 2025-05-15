@@ -64,8 +64,8 @@ char nome_cidade2[20];
     printf("Digite a quantidade de Pontos turísticos:\n");
     scanf("%d", &ponto_turisticos2);
 
-    float densidade_populacional = populacao2 / area2;
-    float pib_per_cap = pib2 / populacao2;
+    float densidade_populacional2 = populacao2 / area2;
+    float pib_per_cap2 = pib2 / populacao2;
 
     //Apresentação das cartas ao Usuario - Carta 01
     printf("\n");
@@ -88,6 +88,8 @@ char nome_cidade2[20];
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f Bilhões de Reais\n", pib2);
     printf("Pontos Turisticos: %d\n", ponto_turisticos2);
+    printf("Densidade Populacional: %.2f\n", densidade_populacional2);
+    printf("PIB per Capita: %.2f\n", pib_per_cap2);
 
     return 0;
 }
